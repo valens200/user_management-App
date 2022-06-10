@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mayone{
+    height: 400px;
+} 
+ 
+.svgdiv{
+    height: 474px;   
+}
+table{
+    width: 100%;
+
+}
+.svg{
+    transform: translateY(40px);
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: #2549AD;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background-color: #2549AD;
+      border-radius:7px;
+  }
+  
+input   {
+    height: 40px;
+    border-radius:7px;
+    background-color: #EDEEF1;
+    border: none;
+}
+/* #mydiv{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto
+
+} */
+.fa-ellipsis{
+    color: #2549AD;
+    font-weight: bolder;
+    font-size:1.5em;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    width: 10%;
+    height: 45px;
+    border-radius:  100%;
+    border: 4px solid #2549AD;
+}
+.mycontainer{
+    height: 700px;
+    overflow: scroll;
+}
+
+
+/* users.php */
+
+
+
+
