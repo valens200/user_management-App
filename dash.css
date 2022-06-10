@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.info {
+    width: 100%;
+    display: flex;
+
+}
+.ing{
+    color: grey;
+}
+.title{
+    color: blue;;
+}
+.sidebar p{
+    padding: 10px;
+    font-family: sans-serif;
+  
+}
+.roww:hover{
+    background-color:#2549adb0;
+    color: white;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+
+}
+.pages .maini:hover{
+    background-color: black;
+    color: white;
+}
+.pages .maini{
+    margin-left: 10px;
+    border: 1px solid #2549AD;
+    padding: 6px;
+    width: 30px;
+    font-family: sans-serif;
+}
+.sidebar p:hover{
+    background-color: #2549AD;
+    color: white;
+    cursor: pointer;
+  
+}
+.dots{
+    margin-left: 10px;
+}
+.reg {
+    text-decoration: none;
+    color: white;
+    background-color: #2549AD;
+}
+.para{
+    background-color: #2549AD;
+    color: white;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 30px;
+}
+.side i{
+    color: grey;
+    margin-right: 10px;
+}
+.mybar{
+    transform: translateY(40px);
+}
+.serach input{
+    width: 200px;
+    height: 25px;
+}
+.side{
+    margin-top: 20px;
+}
+.info{
+    margin-top:20px
+}
+.profile{
+    display: flex;
+    transform: translateX(80px);
+    float: right;
+    flex-direction: row;
+    justify-content: flex-around;
+
+
+}
+::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background-color: #2549AD;
+      border-radius:7px;
+  }
+.users{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-between;
+    font-family: sans-serif;
+
+}
+.register{
+    margin-right: 40px;
+    background-color:blue;
+    padding: 10px;
+    border-radius:10px;
+    font-family: sans-serif;
+    color: white;
+}
+.row{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.539);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:100%;
+    height: 60px;
+    font-family: sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+.list{
+    width: 10%;
+    
+}
+.table{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    background-color:white;
+}
+.username{
+    margin-left: 50px;
+}
+.bg{
+    background-color:rgba(128, 128, 128, 0.144);
+    height: 100%;
+    padding-top: 50px;
+}
+.main{
+    width: 80%;
+    height: 750px;
+}
+.profile img{
+    width: 5%;
+    margin: 0 10px;
+    border-radius: 100%;
+}
+.userInfo{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+   
+
+}
